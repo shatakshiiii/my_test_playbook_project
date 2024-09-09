@@ -1,0 +1,19 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: weather1.demo
+  tags:
+    - ansible
+    - playbook
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: shatakshiiii/my_test_playbook_project
+  links:
+    - url: https://devspaces.apps.ansible-rhdh-dev.testing.ansible.com#https://github.com/shatakshiiii/my_test_playbook_project
+      title: Open Ansible project in OpenShift Dev Spaces
+      icon: web
+spec:
+  type: playbook-project
+  lifecycle: production
+  owner: Shatakshi
